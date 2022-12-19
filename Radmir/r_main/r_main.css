@@ -121,3 +121,38 @@ body {
     position: relative;
     top: 3px;
 }
+
+.button_text {
+    color: #fff;
+    font-weight: 600;
+    line-height: 20px;
+    font-size: 17px;
+}
+
+.header__button img{
+    margin-left: 8px;
+    width: 13px;
+    height: 16px;
+}
+
+.monitoring {
+    position: relative;
+    padding-top: 107px;
+    overflow: hidden;
+}
+
+.monitoring__value {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.palyers{
+    font-weight: 900;
+    font-size: 42px;
+}
+
+.all_players{
+    color: rgba(30,29,29,.45);
+    font-size: 42px;
+}
