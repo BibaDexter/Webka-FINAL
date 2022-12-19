@@ -122,7 +122,7 @@ body {
     top: 3px;
 }
 
-.button_text {
+.button__text {
     color: #fff;
     font-weight: 600;
     line-height: 20px;
@@ -147,12 +147,12 @@ body {
     position: relative;
 }
 
-.palyers{
+.players{
     font-weight: 900;
     font-size: 42px;
 }
 
-.all_players{
+.all-players{
     color: rgba(30,29,29,.45);
     font-size: 42px;
 }
@@ -166,14 +166,14 @@ body {
     display: flex;
     column-gap: 185px;
 }
-.left_title {
+.left-title {
     font-weight: 800;
     font-size: 42px;
     text-transform: uppercase;
     margin-top: 35px;
     line-height: 51px;
 }
-.left_title span {
+.left-title span {
     font-weight: 300;
 }
 .left-text{
@@ -182,7 +182,7 @@ body {
     line-height: 29px;
     margin: 32px 0 0;
 }
-.title_btn{
+.title-btn{
     margin-top: 64px;
     width: 413px;
     height: 78px;
@@ -197,11 +197,11 @@ body {
     font-weight: 600;
     transition: transform .2s ease;
 }
-.title_btn:hover{
+.title-btn:hover{
     position: relative;
     top: 3px;
 }
-.btn_text{
+.btn-text{
     color: #fff;
     font-size: 18px;
     font-weight: 600;
@@ -256,7 +256,6 @@ body {
     overflow: hidden;
     transition-property: bottom left;
     transition-duration: 2s 2s;
- 
  }
  .news__block:hover {
     position: relative;
@@ -311,7 +310,7 @@ body {
     line-height: 19px;
     background: linear-gradient(257.5deg,#f96918 -7.46%,#ffb800 74.36%);
     -webkit-background-clip: text;
-     -webkit-text-fill-color: transparent;
+   -webkit-text-fill-color: transparent;
  }
  .more img {
     margin-left: 4px;

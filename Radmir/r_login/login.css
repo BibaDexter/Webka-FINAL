@@ -13,11 +13,15 @@ body {
    display: flex;
    justify-content: center;
    align-items: center;
-   background-color: #ffb800;
+   background-color: #fff;
    transition: 0.5s;
+   position: relative;
+}
+.fon{
+   z-index: -2;
 }
 body.active {
-   background-color: #ffb800;
+   background-color: #fff;
 }
 .container {
    width: 800px;
@@ -45,7 +49,7 @@ body.active {
 .block-item__title {
    font-size: 1.2rem;
    font-weight: 500;
-   color: #fff;
+   color: black;
    margin-bottom: 10px;
 }
 
