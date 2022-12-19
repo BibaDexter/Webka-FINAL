@@ -156,3 +156,53 @@ body {
     color: rgba(30,29,29,.45);
     font-size: 42px;
 }
+.start{
+    background: url('./mimg/micon/point.svg') calc(50% + 435px) top no-repeat;
+    margin-top: 130px;
+    padding-bottom: 95px;
+    position: relative;
+}
+.start__main{
+    display: flex;
+    column-gap: 185px;
+}
+.left_title {
+    font-weight: 800;
+    font-size: 42px;
+    text-transform: uppercase;
+    margin-top: 35px;
+    line-height: 51px;
+}
+.left_title span {
+    font-weight: 300;
+}
+.left-text{
+    color: rgba(3,3,3,.45);
+    font-size: 24px;
+    line-height: 29px;
+    margin: 32px 0 0;
+}
+.title_btn{
+    margin-top: 64px;
+    width: 413px;
+    height: 78px;
+    background: linear-gradient(257.5deg,#f96918 -7.46%,#ffb800 74.36%);
+    box-shadow: 0 27px 64px -16px rgb(255 184 0 / 64%);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    transition: transform .2s ease;
+}
+.title_btn:hover{
+    position: relative;
+    top: 3px;
+}
+.btn_text{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+}
