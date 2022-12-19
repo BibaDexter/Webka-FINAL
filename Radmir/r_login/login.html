@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="login.css">
+   <title>login</title>
+</head>
+<body>
+   <article class="container">
+      <div class="block">
+         <section class="block__item block-item">
+            <h2 class="block-item__title">У вас уже есть аккаунт</h2>
+            <button class="block-item__btn signin-btn">Войти</button>
+         </section>
+         
+         <section class="block__item block-item">
+            <h2 class="block-item__title">У вас нет аккаунт ?</h2>
+            <button class="block-item__btn signup-btn">Зарегистрироваться</button>
+         </section>
+      </div>
+
+      <div class="form-box">
+         <form action="#" class="form form_signin">
+            <h3 class="form__title">Логин</h3>
+
+            <p>
+               <input type="text" class="form__input" placeholder="Логин">
+            </p>
+            <p>
+               <input type="password" class="form__input" placeholder="Пароль">
+            </p>
+            <p>
+               <button class="form__btn">Войти</button>
+            <p>
+               <a href="#" class="form__forgot">Восстановить пароль</a>
+            </p>
+
+         </form>
+
+         <form action="#" class="form form_signup">
+            <h3 class="form__title">Регистрация</h3>
+
+            <p>
+               <input type="text" class="form__input" placeholder="Логин">
+            </p>
+            <p>
+               <input type="email" class="form__input" placeholder="Email">
+            </p>
+            
+            <p>
+               <input type="password" class="form__input" placeholder="Пароль">
+            </p>
+            <p>
+               <input type="password" class="form__input" placeholder="Подтвердить пароль">
+            </p>
+            <p>
+               <button class="form__btn form__btn-signup">Зарегистрироваться</button>
+            </p>
+
+         </form>
+      </div>
+
+      <script>
+          const signInBtn = document.querySelector('.signin-btn');
+          const signUpBtn = document.querySelector('.signup-btn');
+          const formbox = document.querySelector('.form-box');
+          const body = document.body;
+
+          signUpBtn.addEventListener('click', function () {
+            formbox.classList.add('active');
+            body.classList.add('active')
+          });
+          signInBtn.addEventListener('click', function () {
+            formbox.classList.remove('active');
+            body.classList.remove('active')
+          });
+      </script>
+   </article>
+</body>
+</html>
